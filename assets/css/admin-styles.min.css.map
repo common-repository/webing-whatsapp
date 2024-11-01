@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"sources": [
+		"admin-styles.scss"
+	],
+	"names": [],
+	"mappings": "AAAA,AACC,wBADD,CACC,KAAA,AACC,QAAA,CACC,YAAA,CAAA,OAAA,CACA,UAAA,CAAA,IAAA,CAAA,+BAAA,CAAA,SAAA,CAAA,MAAA,CAAA,KAAA,CACA,AAIH,AAGE,IAHF,CACC,wBAAA,CAEC,cAAA,CACC,SAAA,CAAA,GAAA,CACA,UAAA,CAAA,KAAA,CALH,AAMG,AAED,IARF,CACC,wBAAA,CAOC,KAAA,AACC,QAAA,CACC,mBAAA,CAAA,WAAA,CACA",
+	"file": "admin-styles.min.css",
+	"sourcesContent": [
+		".webing-whatsapp-wrapper {\n\tinput {\n\t\t&.invalid {\n\t\t\tborder-color: #e74c3c;\n\t\t\tbackground: #ffffff url('../images/error-icon.svg') no-repeat center right;\n\t\t}\n\t}\n}\n\n.rtl {\n\t.webing-whatsapp-wrapper {\n\n\t\t.field-wrapper {\n\t\t\tdirection: ltr;\n\t\t\ttext-align: right;\n\t\t}\n\n\t\tinput {\n\t\t\t&.invalid {\n\t\t\t\tbackground-position: center left;\n\t\t\t}\n\t\t}\n\t}\n}"
+	]
+}

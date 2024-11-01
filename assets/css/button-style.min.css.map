@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"sources": [
+		"button-style.scss"
+	],
+	"names": [],
+	"mappings": "AAKA,AAKI,IALJ,CAAA,GAAA,CAAA,KAAA,EAEC,uBAAA,CACC,CAAA,AACA,SAAC,CACC,GAAA,CAJJ,AAII,IAJA,IAAI,CACP,uBAAA,CACC,CAAA,AACA,SAAC,CACC,GAAA,CACC,YAAA,CAAA,CAAA,CACA,WAAA,CAAA,IAAA,CACA,AAML,uBAAA,CACC,QAAA,CAAA,KAAA,CACA,MAAA,CAAA,IAAA,CACA,OAAA,CAAA,IAAA,CAHD,AAKC,AA8CA,uBAnDD,AAKC,WAAA,CACC,IAAA,CAAA,IAAA,CANF,AAOE,AAED,uBATD,AASC,YAAA,CACC,KAAA,CAAA,IAAA,CAVF,AAWE,AAED,uBAbD,CAaC,CAAA,CACC,OAAA,CAAA,YAAA,CACA,gBAAA,CAjCF,OAAA,CAkCE,UAAA,CAAA,YAAA,CACA,KAAA,CAAA,OAAA,CACA,OAAA,CAAA,IAAA,CACA,aAAA,CAAA,GAAA,CAnBF,AAaC,AAqCC,uBAlDF,CAaC,CAAA,AAQC,MAAA,CArBF,AAaC,uBAbD,CAaC,CAAA,AASC,MAAO,AAAC,CACP,gBAAA,CAxCH,IAAA,CAiBA,AAaC,AAWE,uBAxBH,CAaC,CAAA,AAaC,SAAA,CACC,OAAA,CAAA,IAAA,CACA,WAAA,CAAA,MAAA,CACA,aAAA,CAAA,IAAA,CA7BH,AA+BG,AAKA,uBApCH,CAaC,CAAA,AAaC,SAAA,CAKC,GAAA,CACC,KAAA,CAAA,IAAA,CACA,MAAA,CAAA,IAAA,CACA,YAAA,CAAA,IAAA,CAlCJ,AAmCI,AAGF,uBAtCF,CAaC,CAAA,CAyBC,GAAA,CACC,OAAA,CAAA,KAAA,CACA,KAAA,CAAA,IAAA,CACA,MAAA,CAAA,IAAA,CAzCH,AA0CG,AAED,uBA5CF,CAaC,CAAA,CA+BC,IAAA,CACC,KAAA,CAAA,OAAA,CACA,SAAA,CAAA,IAAA,CACA,OAAA,CAAA,KAAA,CACA,WAAA,CAAA,CAAA,CACA",
+	"file": "button-style.min.css",
+	"sourcesContent": [
+		"/** VARS **/\n$whatsapp-color: #25d366;\n$whatsapp-color-hover: #000000;\n\n/** CSS **/\nhtml[dir=\"rtl\"],\nbody.rtl {\n\t.webing-whatsapp-button {\n\t\ta {\n\t\t\t&.has-text {\n\t\t\t\timg {\n\t\t\t\t\tmargin-right: 0;\n\t\t\t\t\tmargin-left: 10px;\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n}\n\n.webing-whatsapp-button {\n\tposition: fixed;\n\tbottom: 10px;\n\tz-index: 9999;\n\n\t&.align_left {\n\t\tleft: 10px;\n\t}\n\n\t&.align_right {\n\t\tright: 10px;\n\t}\n\n\ta {\n\t\tdisplay: inline-block;\n\t\tbackground-color: $whatsapp-color;\n\t\ttransition: all .3s ease;\n\t\tcolor: #ffffff;\n\t\tpadding: 15px;\n\t\tborder-radius: 50%;\n\n\t\t&:hover,\n\t\t&:focus {\n\t\t\tbackground-color: $whatsapp-color-hover;\n\t\t}\n\n\t\t&.has-text {\n\t\t\tdisplay: flex;\n\t\t\talign-items: center;\n\t\t\tborder-radius: 25px;\n\n\t\t\timg {\n\t\t\t\twidth: 24px;\n\t\t\t\theight: 24px;\n\t\t\t\tmargin-right: 10px;\n\t\t\t}\n\t\t}\n\n\t\timg {\n\t\t\tdisplay: block;\n\t\t\twidth: 36px;\n\t\t\theight: 36px;\n\t\t}\n\n\t\tspan {\n\t\t\tcolor: #ffffff;\n\t\t\tfont-size: 16px;\n\t\t\tdisplay: block;\n\t\t\tline-height: 1;\n\t\t}\n\t}\n}"
+	]
+}
